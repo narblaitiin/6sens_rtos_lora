@@ -8,7 +8,7 @@
 //  ========== includes ====================================================================
 #include "app_lora.h"
 
-//  ========== globals =====================================================================
+//  ========== globals ====================================================================
 // define GPIO configurations for the LED
 static const struct gpio_dt_spec led_tx = GPIO_DT_SPEC_GET(LED_TX, gpios);
 
