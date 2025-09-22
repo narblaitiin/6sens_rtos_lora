@@ -18,6 +18,6 @@ The following commands clean build folder, build and flash the sample:
 ````
 west build -t pristine
 
-west build -p always -b mdbt50q_lora_dev applications/nrf52840_rtos_lora
+west build -p always -b mdbt50q_lora_dev applications/6sens_rtos_lora
 
 west flash --runner jlink
