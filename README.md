@@ -9,7 +9,8 @@ For this original board, we chose to use the LoRa module transceiver 868MHz, for
 
 Please check the frequency/channel configuration prior to use and ensure you are transmitting on a permitted band for your country.
 
-**Board used** : Original MDBT50Q board, powered by battery/solar panel. (see 6sens_prj_nrf52 repository/hardware part, for more information.)
+## Board used
+Original MDBT50Q board, powered by battery/solar panel. (see 6sens_prj_nrf52 repository/hardware part, for more information.)
 
 ## Building and Running
 The following commands clean build folder, build and flash the sample:
