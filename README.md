@@ -1,7 +1,7 @@
 # Code for 6Sens Project : testing the RFM95W module by sending specific lora packets
 
 ## Overview
-This application contains example code to allow testing of LoRa radios (point to point communications). This is useful for validating your LoRa radio is working correctly before trying to connect to LoRaWAN networks. The version of Zephyr RTOS used is the version v3.6.0.
+This application contains example code to allow testing of LoRa radios (point to point communications). This is useful for validating your LoRa radio is working correctly before trying to connect to LoRaWAN networks. The version of Zephyr RTOS used is the version v4.0.0.
 
 When started, the app will listen for packets on the selected frequency/channel. When SW1 is pressed, will transmit a packet ('Hello') in ASCII (**ToDo**)
 
