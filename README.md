@@ -5,12 +5,12 @@ This application contains example code to allow testing of LoRa radios (point to
 
 When started, the app will listen for packets on the selected frequency/channel. When SW1 is pressed, will transmit a packet ('Hello') in ASCII (**ToDo**)
 
-For this original board, we chose to use the LoRa module transceiver 868MHz, form RF Solutions (RFM95W-868S2).
+For this original board, we chose to use the LoRa module transceiver 868MHz, from RF Solutions (RFM95W-868S2).
 
 Please check the frequency/channel configuration prior to use and ensure you are transmitting on a permitted band for your country.
 
 ## Board used
-Original MDBT50Q board, powered by battery/solar panel. (see 6sens_prj_nrf52 repository/hardware part, for more information.)
+Original MDBT50Q board, powered by battery/solar panel. (see 6sens_prj repository/hardware part, for more information.)
 
 ## Building and Running
 The following commands clean build folder, build and flash the sample:
