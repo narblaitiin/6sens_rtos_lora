@@ -18,7 +18,7 @@
 //  ========== defines =====================================================================
 #define TRANSMIT        1
 #define RECEIVE         0
-#define LED_TX          DT_ALIAS(ledtx) // declared in device tree
+#define LED_TX          DT_ALIAS(led0) // declared in device tree
 #define SLEEP_TIME_MS   2000            // like zephyr lora driver sample
 
 //  ========== prototypes ==================================================================
